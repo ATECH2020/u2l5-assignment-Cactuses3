@@ -12,10 +12,10 @@ public class ConstructionTester
         Scanner myScan = new Scanner(System.in);
 
         //variables for the cost of lumber, windows, and the tax rate
-        final double lumberCost = 8.0;
-        final double windowCost = 11.0;
+        double lumberCost = 8.0;
+        double windowCost = 11.0;
         System.out.println("Enter the sales tax rate:");
-        final double taxRate = myScan.nextDouble();
+        double taxRate = myScan.nextDouble();
 
         //variables for the amount of lumber and windows
         System.out.println("How many boards do you need?");
